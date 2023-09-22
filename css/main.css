@@ -12,3 +12,23 @@ body {
     border: 1px solid grey;
     padding: 10px;
 }
+
+.cardimages > svg {
+    max-width: 40px;
+    max-height: 40px;
+    
+    @media screen {
+    max-width: 40px;
+    max-height: 40px;
+    }
+}
+
+.cardimages > img {
+    max-width: 40px;
+    max-height: 40px;
+    
+    @media screen {
+    max-width: 40px;
+    max-height: 40px;
+    }
+}
