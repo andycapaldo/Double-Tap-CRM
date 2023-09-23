@@ -33,6 +33,20 @@ body {
     }
 }
 
+.circle-1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 500px;
+    background-color: #e5efff;
+}
+
+.circle-1 > img {
+    width: 99px;
+    max-width: 99px;
+    max-height: 66px;
+}
+
 .footerbuttons > button {
     width: 200px;
     height: 50px;
