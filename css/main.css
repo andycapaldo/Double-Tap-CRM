@@ -61,3 +61,22 @@ body {
 .footerspacer {
     opacity: 0.0;
 }
+
+.circle-2 {
+    clip-path: polygon(50% 0%, 70% 0, 65% 41%, 56% 71%, 47% 83%, 33% 94%, 13% 100%, 0 91%, 0% 35%, 0 0);
+    background-color: #0314fe;
+}
+
+.signinbutton {
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 400px;
+    height: 50px;
+}
+
+.signinbutton > img {
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
