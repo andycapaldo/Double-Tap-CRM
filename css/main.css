@@ -1,3 +1,34 @@
 body {
     color: black !important;
 }
+
+.logosx > svg {
+    clip-path: ellipse(39% 47% at 50% 50%);
+}
+
+.card1icon {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.cardimages > svg {
+    max-width: 40px;
+    max-height: 40px;
+    
+    @media screen {
+    max-width: 40px;
+    max-height: 40px;
+    }
+}
+
+.cardimages > img {
+    max-width: 40px;
+    max-height: 40px;
+    
+    @media screen {
+    max-width: 40px;
+    max-height: 40px;
+    }
+}
